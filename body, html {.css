@@ -1,0 +1,99 @@
+body, html {
+	margin: 0px;
+  height: 100%;
+  background-color: #90252a;
+}
+h1, h2 {
+    margin: 0;
+  }
+  .wrapper {
+    height: 100%;
+    width: 100%;  
+  }
+  .content-wrapper {
+    margin: 0 50px;
+    background-color: #37322b;
+    width: 935px;
+    height: auto;
+    padding: 20px 0 40px;
+  }
+  .content {
+    background-color: #fff;
+    padding: 60px 20px 30px;
+  }
+  .content-title {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .calculator-wrapper {
+    background: #e5edef;
+    width: 670px;
+    margin-top: 15px;
+    padding: 25px 15px;
+  }
+  .calculator-title {
+    color: #992e37;
+    font-size: 18px;
+  }
+  .calculator-desc {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  table,table tr td {
+    border:1px solid #bdc3c5;
+  }
+  table tr td{
+    padding: 10px 5px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .header td {
+    padding: 3px 5px;
+    font-weight: 500;
+    background: #d9d9d9;
+  }
+  button {
+    background: #a3231f;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 30px;
+    cursor: pointer;
+    min-width: 90px;
+  }
+  input[type=number] {
+    -moz-appearance:textfield;
+    width: 40px;
+    height: 30px;
+  }
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .grade-group {
+    display: flex;
+    align-items: center;
+  }
+  .grade-group .slash {
+    padding: 0 3px;
+  }
+  .result-wrapper {}
+  .result-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #a3231f;
+  }
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .error {
+    border: 1px solid red;
+  }
